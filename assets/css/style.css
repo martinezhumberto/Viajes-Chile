@@ -27,6 +27,17 @@ body{
 
 .carousel-container {
     position: relative;
+}
+
+.color{
+    background-color: #0dcaf0;
+}  
+
+.titulo-section{
+  font-size: 23px !important;
+}
+
+.hr1{
+    width: 96%;
   }
-  
   
