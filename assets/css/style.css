@@ -39,5 +39,17 @@ body{
 
 .hr1{
     width: 96%;
-  }
+}
+
+.hr2{
+    width: 100%;
+}
+
+.card p{
+    color: #fff !important;
+}
+.custom-tooltip {
+  --bs-tooltip-bg: #0dcaf0 !important;
+}
+  
   
