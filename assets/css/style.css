@@ -1,0 +1,32 @@
+/* ESTILO PARA AGREGAR COLOR DE FONDO AL MENÚ EN LA VERSIÓN MOVIL*/
+@media only screen and (max-width: 480px) {
+    #navbarNav {
+        background-color: #0000009a;
+    }
+}
+  
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+.carousel-container {
+    position: relative;
+  }
+  
+  
