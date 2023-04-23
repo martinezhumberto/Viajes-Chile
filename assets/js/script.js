@@ -16,3 +16,25 @@ $(document).ready(function(){
         } 
     });
 });
+
+
+//VALIDAR QUE LOS CAMPOS NO ESTÉN VACÍOS
+function validar() {
+    var nombre = document.getElementById("nombre").value;
+    var asunto = document.getElementById("asunto").value;
+    var mensaje = document.getElementById("mensaje").value;
+
+    if (nombre == "") {
+        alert("Por favor, ingrese su nombre.");
+        event.preventDefault();
+    }else if (asunto == "") {
+        alert("Por favor, ingrese su asunto.");
+        event.preventDefault();
+    }else if (mensaje == "") {
+        alert("Por favor, ingrese su mensaje.");
+        event.preventDefault();
+    }else{
+        alert("Mensaje enviado correctamente.")
+    }
+}
+  
