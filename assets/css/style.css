@@ -1,3 +1,6 @@
+/* IMPORTANDO FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 /* ESTILO PARA AGREGAR COLOR DE FONDO AL MENÚ EN LA VERSIÓN MOVIL*/
 @media only screen and (max-width: 480px) {
     #navbarNav {
@@ -9,14 +12,17 @@
     margin:0;
     padding: 0;
     border: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 300;
 }
+
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
 }
 
 body{
     background-color: black !important;
-    color: white !important;
+    color: white !important;  
 }
 
 .navbar {
@@ -26,7 +32,6 @@ body{
     right: 0;
     z-index: 999;
 }
-
 
 .carousel-container {
     position: relative;
@@ -38,6 +43,8 @@ body{
 
 .titulo-section{
   font-size: 23px !important;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 500;
 }
 
 .hr1{
@@ -51,6 +58,7 @@ body{
 .card p{
     color: #fff !important;
 }
+
 .custom-tooltip {
   --bs-tooltip-bg: #0dcaf0 !important;
 }
@@ -62,7 +70,14 @@ footer p{
 footer a{
     text-decoration: none !important;
 }
+
 footer {
     height: 80px;
 }
-  
+
+footer .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
